@@ -1,4 +1,4 @@
-import DingTalkChat from './components11/DingTalkChat';
+import DingTalkChat from './components/DingTalkChat';
 import React, { useState } from 'react';
 import './App.css';
 <DingTalkChat />
@@ -7,10 +7,6 @@ return (
     {/* 其他页面内容 */}
 
     {/* 添加钉钉聊天功能 */}
-    <section>
-      <h2>员工沟通系统</h2>
-      <DingTalkChat />
-    </section>
 
     {/* 底部等内容 */}
   </div>
@@ -77,5 +73,9 @@ function App() {
     </div>
   );
 }
+
+<section className="chat-section">
+  <DingTalkChat />
+</section>
 
 export default App;
