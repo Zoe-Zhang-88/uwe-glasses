@@ -1,5 +1,20 @@
+import DingTalkChat from './components11/DingTalkChat';
 import React, { useState } from 'react';
 import './App.css';
+<DingTalkChat />
+return (
+  <div className="App">
+    {/* 其他页面内容 */}
+
+    {/* 添加钉钉聊天功能 */}
+    <section>
+      <h2>员工沟通系统</h2>
+      <DingTalkChat />
+    </section>
+
+    {/* 底部等内容 */}
+  </div>
+);
 
 // 模拟产品数据
 const products = [
