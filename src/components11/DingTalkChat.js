@@ -5,7 +5,7 @@ import axios from 'axios';
 function DingTalkChat() {
   const sendMessage = async () => {
     // 替换为你自己的钉钉机器人 Webhook 地址
-    const webhookUrl = "https://oapi.dingtalk.com/robot/send?access_token=SEC1838e6e0120a77e3c44a6d95891a5e386667adc2f62425c712e54c25bf57e0e2";
+    const webhookUrl = "https://oapi.dingtalk.com/robot/send?access_token=35e130277d3ba7f6604abbbb3ebdd377bef257b52593763535993149937f2fd3";
 
     const message = {
       msgtype: "text",
